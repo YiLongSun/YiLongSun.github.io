@@ -6,25 +6,6 @@
     <description>Recent content in Techs on Y.L.Sun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Yi-Long Sun</copyright>
-    <lastBuildDate>Thu, 02 May 2019 19:47:09 +0200</lastBuildDate><atom:link href="https://yilongsun.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>D3</title>
-      <link>https://yilongsun.github.io/techs/d3/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>https://yilongsun.github.io/techs/d3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://yilongsun.github.io/techs/javascript/</link>
-      <pubDate>Thu, 02 May 2019 19:47:09 +0200</pubDate>
-      
-      <guid>https://yilongsun.github.io/techs/javascript/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>© Yi-Long Sun</copyright><atom:link href="https://yilongsun.github.io/techs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ABOUT on YLS</title>
+    <title>ABOUT on Y.L.Sun</title>
     <link>https://yilongsun.github.io/about/</link>
-    <description>Recent content in ABOUT on YLS</description>
+    <description>Recent content in ABOUT on Y.L.Sun</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Edna West</copyright><atom:link href="https://yilongsun.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Yi-Long Sun</copyright><atom:link href="https://yilongsun.github.io/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

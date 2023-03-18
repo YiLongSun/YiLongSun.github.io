@@ -16,7 +16,7 @@
 
 
 
-<link rel="stylesheet" href="https://yilongsun.github.io/sass/style.min.eabe1aa4bd266a15f7b39b122bd6a5cc75cb067e5373631ac21d7815d6240d6f.css" integrity="sha256-6r4apL0mahX3s5sSK9alzHXLBn5Tc2Mawh14FdYkDW8=" media="screen">
+<link rel="stylesheet" href="https://yilongsun.github.io/sass/style.min.6ace388eb221ff3368015af8a68da07f49c18d67da57e3186c7b86eea0f96ebf.css" integrity="sha256-as44jrIh/zNoAVr4po2gf0nBjWfaV&#43;MYbHuG7qD5br8=" media="screen">
 <link rel="stylesheet" href="https://yilongsun.github.io/syntax.min.css" integrity="" media="screen">
 
   <meta property="og:title" content="Linux 常用指令" />
@@ -40,7 +40,7 @@
   <div class="intro">
     <div class="logo-container">
       <a href="/">
-        <img src='https://yilongsun.github.io/images/edna-west.jpg' alt="Profile PORTFOLIO" class="rounded-logo">
+        <img src='https://yilongsun.github.io/images/edna-west.jpg' alt="Profile POST" class="rounded-logo">
       </a>
     </div>
     <h2>Hi, I'm Yi-Long Sun 👋</h2>
@@ -118,7 +118,7 @@
     <div class="intro">
       <div class="logo-container">
         <a href="/">
-          <img src='https://yilongsun.github.io/images/edna-west.jpg' alt="Profile PORTFOLIO" class="rounded-logo">
+          <img src='https://yilongsun.github.io/images/edna-west.jpg' alt="Profile POST" class="rounded-logo">
         </a>
       </div>
       <h2>Hi, I'm Yi-Long Sun 👋</h2>
@@ -240,53 +240,66 @@
 </div>
 
 <p>Linux shell 常用指令</p>
-<h2 id="關機">關機</h2>
+<h1 id="關機">關機</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo shutdown -h now
-</span></span></code></pre></div><h2 id="重開機">重開機</h2>
+</span></span></code></pre></div><br>
+<h1 id="重開機">重開機</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo reboot
-</span></span></code></pre></div><h2 id="安裝套件">安裝套件</h2>
+</span></span></code></pre></div><br>
+<h1 id="安裝套件">安裝套件</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo apt-get install XXX
-</span></span></code></pre></div><h2 id="更新套件資訊">更新套件資訊</h2>
+</span></span></code></pre></div><br>
+<h1 id="更新套件資訊">更新套件資訊</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo apt-get update
-</span></span></code></pre></div><h2 id="更新軟體至最新版本">更新軟體至最新版本</h2>
+</span></span></code></pre></div><br>
+<h1 id="更新軟體至最新版本">更新軟體至最新版本</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo apt-get upgrade
-</span></span></code></pre></div><h2 id="移除套件">移除套件</h2>
+</span></span></code></pre></div><br>
+<h1 id="移除套件">移除套件</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo apt-get --purge autoremove XXX
-</span></span></code></pre></div><h2 id="線上說明手冊">線上說明手冊</h2>
+</span></span></code></pre></div><br>
+<h1 id="線上說明手冊">線上說明手冊</h1>
 <p>查看 ls 指令如何使用</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ man ls
-</span></span></code></pre></div><h2 id="查看當前路徑">查看當前路徑</h2>
+</span></span></code></pre></div><br>
+<h1 id="查看當前路徑">查看當前路徑</h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">pwd</span>
-</span></span></code></pre></div><h2 id="列出檔案">列出檔案</h2>
+</span></span></code></pre></div><br>
+<h1 id="列出檔案">列出檔案</h1>
 <p>列出檔案詳細資訊</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l
 </span></span></code></pre></div><p>列出路徑或檔案大小</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -h
 </span></span></code></pre></div><p>顯示全部檔案</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -a
-</span></span></code></pre></div><h2 id="建立空檔案">建立空檔案</h2>
+</span></span></code></pre></div><br>
+<h1 id="建立空檔案">建立空檔案</h1>
 <p>建立 python 檔案</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ touch test.py
-</span></span></code></pre></div><h2 id="切換路徑">切換路徑</h2>
+</span></span></code></pre></div><br>
+<h1 id="切換路徑">切換路徑</h1>
 <p>切換至上一層路徑</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> ..
 </span></span></code></pre></div><p>切換至指定路徑</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> XXX
-</span></span></code></pre></div><h2 id="刪除">刪除</h2>
+</span></span></code></pre></div><br>
+<h1 id="刪除">刪除</h1>
 <p>刪除檔案</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ rm XXX
 </span></span></code></pre></div><p>刪除資料夾</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ rm -rf XXX
 </span></span></code></pre></div><p>刪除特定檔案（刪除 python 檔）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ rm -f *.py
-</span></span></code></pre></div><h2 id="移動">移動</h2>
+</span></span></code></pre></div><br>
+<h1 id="移動">移動</h1>
 <p>複製檔案（複製 test.py 到 /test/ 路徑）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp test.py /test/
 </span></span></code></pre></div><p>複製資料夾（複製 source 內所有檔案到 destination）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ cp -r source/ destination/
 </span></span></code></pre></div><p>複製資料夾（保留檔案權限）</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ cp -r --preserve<span class="o">=</span>all source/ destination/
-</span></span></code></pre></div><h2 id="壓縮">壓縮</h2>
+</span></span></code></pre></div><br>
+<h1 id="壓縮">壓縮</h1>
 <p>.tar 壓縮</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ tar cvf dir.tar dir
 </span></span></code></pre></div><p>.tar 解壓縮</p>
@@ -301,7 +314,8 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ zip -r dir.zip dir
 </span></span></code></pre></div><p>.zip 解壓縮</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ unzip dir.zip -d dir
-</span></span></code></pre></div><h2 id="權限">權限</h2>
+</span></span></code></pre></div><br>
+<h1 id="權限">權限</h1>
 <p>修改檔案權限</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ chmod <span class="nv">u</span><span class="o">=</span>rwx,g<span class="o">=</span>rx,o<span class="o">=</span>r XXX
 </span></span></code></pre></div><table style="border:3px black dashed;">
